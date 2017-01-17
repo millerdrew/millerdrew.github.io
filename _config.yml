@@ -16,9 +16,9 @@
 title: Maximum Joy, Minimum Frustration
 email: millerdrew@gmail.com 
 description: > # this means to ignore newlines until "baseurl:"
-  A techy blog written to inspire creativity, code, and collaboration.  Chronicles of one man hoping to sail the great ocean of programming to learn new things and build stuff that's awesome.  Coding doesn't have to feel like drowning in a tar pit with dinosaurs.  Let's make it fun. :) 
+  A techy blog written to inspire creativity, code, and collaboration:rocket:.  Chronicles of one man hoping to sail the great ocean of programming to learn new things and build stuff that's awesome:boat:.  Coding doesn't have to feel like drowning in a tar pit with dinosaurs:crocodile:.  Let's make it fun:sunglasses:. 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://joyfulcoding.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: joyfulcoding 
 github_username: millerdrew
 
@@ -27,6 +27,7 @@ markdown: kramdown
 theme: minima
 gems:
   - jekyll-feed
+  - jemoji
 exclude:
   - Gemfile
   - Gemfile.lock
