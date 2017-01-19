@@ -1,19 +1,23 @@
 ---
 layout: post
-title:  "Get Going with Github Pages & Jekyll"
-date:   2017-01-17
+title:  "Code Tunes"
+date:   2017-01-18
 comments: true
 categories: jekyll update
 ---
 
-I will be giving a short presentation at [Redding Designers and Developers](https://www.meetup.com/Redding-Radd/) on getting up and running with GitHub Pages and Jekyll.
+What are you favorite tunes to code to?  Here are a couple of mine:
 
-Location: [Shasta Venture Hub](http://www.shastaventurehub.com/)
+<iframe width="560" height="315" src="https://www.youtube.com/embed/per9Wz0N-QA" frameborder="0" allowfullscreen></iframe>
 
-Time: 5:30pm
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vlEN8svyHj8?list=PLB9FB4E1138286D3C" frameborder="0" allowfullscreen></iframe>
 
-Date: 1-18-2017
+<iframe width="560" height="315" src="https://www.youtube.com/embed/qrL2KXAIkJ8" frameborder="0" allowfullscreen></iframe>
 
+<p>
+Here's a shameless plug for my wife's composition:
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/jNR3qX77HWU" frameborder="0" allowfullscreen></iframe>
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
@@ -29,6 +33,7 @@ this.page.identifier = 'joyfulcoding-com'; // Replace PAGE_IDENTIFIER with your 
 var disqus_developer = 1;
 };
 */
+
 (function() { // DON'T EDIT BELOW THIS LINE
 var d = document, s = d.createElement('script');
 s.src = '//joyfulcoding-com.disqus.com/embed.js';
@@ -38,4 +43,4 @@ s.setAttribute('data-timestamp', +new Date());
 </script>
 <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 {% endif %}
-                                
+
