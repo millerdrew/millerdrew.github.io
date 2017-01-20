@@ -14,6 +14,9 @@ Time: 5:30pm
 
 Date: 1-18-2017
 
+Here's the slides from the presentation:
+
+<script async class="speakerdeck-embed" data-id="aa13f5052d9f40fb85b36f9581e8b9a8" data-ratio="1.33333333333333" src="//speakerdeck.com/assets/embed.js"></script>
 
 {% if page.comments %}
 <div id="disqus_thread"></div>
