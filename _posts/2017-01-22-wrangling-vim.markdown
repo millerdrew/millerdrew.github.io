@@ -6,6 +6,8 @@ comments: true
 categories: jekyll update
 ---
 
+![Vim](/assets/vim.png)
+
 If you are looking for code editors that are beginner friendly, I would suggest [Atom](https://atom.io/) or [Sublime](https://www.sublimetext.com/).  Both are excellent, modern editing tools that any web developer should be comfortable with.
 
 But if you're like me, and want to get a little crazy with an editor that has a steep learning curve but pays dividends down the road, it's hard to find something to match [Vim](http://www.vim.org/).  Do yourself a favor though and don't start with vanilla Vim... Instead get a nice starter pack such as this one created by Square called [Maximum Awesome](https://medium.com/square-corner-blog/fly-vim-first-class-610f1a39b572#.qexo773dp).
