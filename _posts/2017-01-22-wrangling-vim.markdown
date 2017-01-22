@@ -38,12 +38,13 @@ There's many many more, and I plan on including a reference of the ones I use th
 Here are some settings that I changed with my home directory in the .vimrc.local file:
 
 ```
-colorscheme elflord
+colorscheme solarized
+set background=dark
 set lines=100 columns=200
 set guifont=Menlo\ Regular:h24
 ```
 
-Before I changed those settings I found the MacVim started in a tiny window with a tiny font... And the colorscheme is just for fun :smile:.  Another cool color scheme you might like to try is solorized.  
+Before I changed those settings I found the MacVim started in a tiny window with a tiny font... And the colorscheme is just for fun :smile:.  
 
 Give it a shot.  You might find Vim not so crazy after all :wink:.
 
