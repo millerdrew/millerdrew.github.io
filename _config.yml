@@ -1,33 +1,39 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-
 # Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Maximum Joy, Minimum Frustration
-email: millerdrew@gmail.com 
-description: > # this means to ignore newlines until "baseurl:"
-  A tech blog written to inspire creativity, code, and collaboration:rocket:.  Let's have some fun and build awesome stuff:sunglasses:. 
+title: Joyful Coding
+description: Portfolio of Drew Miller
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://joyfulcoding.com" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: joyfulcoding 
-github_username: millerdrew
+url: "http://joyfulcoding.github.io" # the base hostname & protocol for your site e.g. http://willianjusten.com.br
+
+# User settings
+username: Drew Miller
+user_description: Web Developer at Joyful Coding
+user_title: Web Developer
+email: millerdrew@gmail.com
+twitter_username: joyfulcoding
+github_username:  millerdrew
 
 # Build settings
 markdown: kramdown
-theme: minima
-gems:
-  - jekyll-feed
-  - jemoji
-exclude:
-  - Gemfile
-  - Gemfile.lock
+highlighter: rouge
+permalink: /:title/
+
+
+# html minify
+compress_html:
+  clippings: all
+  comments: all
+  endings: []
+  profile: false
+
+# Links to include in menu navigation
+# For external links add external: true
+links:
+  - title: Home
+    url: /
+#  - title: Tags
+#    url: /tags
+#  - title: About Me
+#    url: /about
+
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']

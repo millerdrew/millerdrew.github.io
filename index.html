@@ -1,0 +1,70 @@
+---
+layout: minimal
+title: "Web Developer"
+permalink: /index.html
+description: "Get to know a bit about me and my work"
+---
+
+<img itemprop="image" class="img-rounded" src="/assets/img/blog-author.jpg" alt="Drew Miller">
+
+<h2>Hi there!</h2>
+
+<p>My name is Drew Miller and I'm a web developer who's worked on both sides of the Pacific Ocean... First
+	in Japan and now in Northern California.  Whether it's a website or a web app,
+	I'm interested in helping your ideas become reality.  I'm currently available for hire
+	on projects big and small.  Thanks for stopping by and I hope you'll consider
+	working together to create the future.</p>
+
+<h2>Skills</h2>
+
+<ul class="skill-list">
+		<li>Responsive Design (Mobile First)</li>
+		<li>HTML/CSS</li>
+		<li>Javascript</li>
+		<li>Adobe Photoshop</li>
+		<li>Git Version Control</li>
+		<li>Wordpress</li>
+		<li>Ruby</li>
+		<li>Jekyll</li>
+</ul>
+
+<h2>Projects</h2>
+
+<ul>
+	<li><a href="http://www.inochinoki.cafe/">Inochi No Ki Cafe</a></li>
+	<li><a href="http://motunabe-narikawa.com/">Motsunabe Narikawa</a></li>
+	<li><a href="http://libertychurchkyoto.org/">Liberty Church Kyoto</a></li>
+</ul>
+
+<!--
+<main id="scroll" class="home" role="main" itemprop="mainContentOfPage" itemscope="itemscope" itemtype="http://schema.org/Blog">
+    {% for post in site.posts %}
+        <article role="article" class="post-item" itemscope="itemscope" itemtype="http://schema.org/BlogPosting" itemprop="blogPost">
+                <a class="datetime" href="{{ post.url | prepend: site.baseurl }}">
+                    <meta itemprop="datePublished" content="{{post.date}}">
+                    <time datetime="{{ post.date | date_to_xmlschema }}">
+                        <span class="day">
+                            {{ post.date | date: "%d" }}
+                        </span>
+                        <span class="month-year">
+                            {{ post.date | date: "%B %Y" }}
+                        </span>
+                    </time>
+                </a>
+                <div class="content">
+                    <a href="{{ post.url | prepend: site.baseurl }}"><h2 class="post-title" itemprop="name">{{ post.title }}</h2></a>
+                    <p class="description">
+                        {{ post.content | strip_html | truncatewords:40 }}
+                        <a href="{{ post.url | prepend: site.baseurl }}" class="link">Read more about {{post.title}}</a>
+                    </p>
+
+                    <div class="tags">
+                        {% for tag in post.tags %}
+                            <a href="{{ site.baseurl }}/tags/#{{tag | slugify }}">{{ tag }}</a>
+                        {% endfor %}
+                    </div>
+                </div>
+        </article>
+    {% endfor %}
+</main>
+-->
